@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Env secrets
+.env
+
+# Model weights (too large for git — see README for download instructions)
+backend/weights/*.pt
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# OS
+.DS_Store
